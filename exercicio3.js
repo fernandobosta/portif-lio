@@ -2,7 +2,7 @@
 let num1;
 let num2;
 let resultado;
-let numero;
+let nu;
 
 function sobra(){
 
@@ -11,15 +11,7 @@ function sobra(){
 
     resultado = num1 % num2;
 
-    numero = resultado % 2;
-
     alert("O resultado é " + resultado);
-
-    if(numero == 0) {
-        alert('par');
-    } else {
-        alert('impar');
-    }
 
 }
 
@@ -30,15 +22,7 @@ function multiplicacao(){
 
     resultado = num1 * num2;
 
-    numero = resultado % 2;
-
     alert("O resultado é " + resultado);
-
-     if(numero == 0) {
-        alert('par');
-    } else {
-        alert('impar');
-    }
 }
 
 function adicao(){
@@ -48,15 +32,7 @@ function adicao(){
 
     resultado = num1 + num2;
 
-    numero = resultado % 2;
-
-    alert("O resultado é " + resultado + ".");
-
-    if (numero == 0) {
-        alert('par');
-    } else {
-        alert('impar');
-    }
+    alert("O resultado é " + resultado);
 }
 
 function subtracao(){
@@ -66,13 +42,5 @@ function subtracao(){
 
     resultado = num1 - num2;
 
-    numero = resultado % 2;
-
     alert("O resultado é " + resultado);
-
-    if(numero == 0) {
-        alert('par');
-    } else {
-        alert('impar')
-    }
 }

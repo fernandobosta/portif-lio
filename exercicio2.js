@@ -12,6 +12,6 @@ function calculo(){
         alert("Você pode tirar a carteira de motorista")
     } else {
         let dif = 18 - idade
-        alert("Voê não pode tirar a carteira de motorista pois ainda faltam " + dif + " anos para completar 18 anos")
+        alert("Você não pode tirar a carteira de motorista pois ainda faltam " + dif + " anos para completar 18 anos")
     }
 }
